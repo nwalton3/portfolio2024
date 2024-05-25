@@ -1,0 +1,960 @@
+
+@import url("https://use.typekit.net/wlw1swx.css");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Alegreya+Sans:wght@300;500&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: vertical
+}
+
+.hidden {
+    display: none !important
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+*,
+*:before,
+*:after {
+    position: relative;
+    box-sizing: border-box
+}
+
+html,
+body {
+    font-size: 100%
+}
+
+body {
+    font-family: "chaparral-pro", serif;
+    font-weight: 300;
+    transition: font-size 250ms ease, padding 250ms ease;
+    font-size: 1.25em;
+    line-height: 1.5;
+    color: #203640;
+    font-variant-numeric: oldstyle-nums;
+    -moz-font-feature-settings: "onum";
+    -webkit-font-feature-settings: "onum";
+    font-feature-settings: "onum"
+}
+
+@media (min-width: 24em) {
+    body {
+        font-size: 1.3em
+    }
+}
+
+@media (min-width: 32em) {
+    body {
+        font-size: 1.35em
+    }
+}
+
+@media (min-width: 48em) {
+    body {
+        font-size: 1.4em
+    }
+}
+
+@media (min-width: 72em) {
+    body {
+        font-size: 1.5em
+    }
+}
+
+body,
+.full-width,
+blockquote,
+footer.page {
+    padding-right: 6%;
+    padding-left: 7%
+}
+
+@media (min-width: 24em) {
+
+    body,
+    .full-width,
+    blockquote,
+    footer.page {
+        padding-right: 8%;
+        padding-left: 9%
+    }
+}
+
+@media (min-width: 32em) {
+
+    body,
+    .full-width,
+    blockquote,
+    footer.page {
+        padding-right: 10%;
+        padding-left: 11%
+    }
+}
+
+@media (min-width: 48em) {
+
+    body,
+    .full-width,
+    blockquote,
+    footer.page {
+        padding-right: 12%;
+        padding-left: 13%
+    }
+}
+
+@media (min-width: 72em) {
+
+    body,
+    .full-width,
+    blockquote,
+    footer.page {
+        padding-right: 14%;
+        padding-left: 15%
+    }
+}
+
+.full-width,
+blockquote,
+footer.page {
+    margin-right: -6.89655%;
+    margin-left: -8.04598%
+}
+
+@media (min-width: 24em) {
+
+    .full-width,
+    blockquote,
+    footer.page {
+        margin-right: -9.63855%;
+        margin-left: -10.84337%
+    }
+}
+
+@media (min-width: 32em) {
+
+    .full-width,
+    blockquote,
+    footer.page {
+        margin-right: -12.65823%;
+        margin-left: -13.92405%
+    }
+}
+
+@media (min-width: 48em) {
+
+    .full-width,
+    blockquote,
+    footer.page {
+        margin-right: -16%;
+        margin-left: -17.33333%
+    }
+}
+
+@media (min-width: 72em) {
+
+    .full-width,
+    blockquote,
+    footer.page {
+        margin-right: -19.71831%;
+        margin-left: -21.12676%
+    }
+}
+
+h1,
+h2 {
+    color: #003D66
+}
+
+h1,
+h2,
+h3,
+.heading {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    text-transform: lowercase
+}
+
+h1 {
+    margin: 2em 0 0.5em
+}
+
+h2 {
+    margin: 3em 0 0.5em
+}
+
+h3 {
+    margin: 0.7em 0;
+    color: #1B75BB
+}
+
+@media (min-width: 48em) {
+    h3 {
+        margin: 1.4em 0 0.5em
+    }
+}
+
+main.page {
+    padding-bottom: 5em
+}
+
+main.page h1 {
+    font-size: 1.75em;
+    font-family: "chaparral-pro", serif;
+    text-transform: none;
+    color: #203640;
+    line-height: 1.1
+}
+
+main.page h2 {
+    font-size: 1em
+}
+
+@media (min-width: 24em) {
+    main.page h1 {
+        font-size: 2em
+    }
+}
+
+@media (min-width: 32em) {
+    main.page h1 {
+        font-size: 2.25em
+    }
+
+    main.page h2 {
+        font-size: 1.125em
+    }
+}
+
+@media (min-width: 48em) {
+    main.page h1 {
+        font-size: 2.75em
+    }
+}
+
+h3.subtitle {
+    font-size: 0.9em;
+    text-transform: none;
+    font-family: "chaparral-pro", serif;
+    font-weight: 300
+}
+
+@media (min-width: 32em) {
+    section.top {
+        margin-top: 2em
+    }
+}
+
+a {
+    text-decomerriweathern: none;
+    transition: color 200ms ease
+}
+
+a:link,
+a:visited {
+    color: #1B75BB
+}
+
+a:hover,
+a:focus {
+    color: #003D66
+}
+
+p,
+ol,
+ul {
+    max-width: 36em;
+    color: #222
+}
+
+p {
+    margin: 0.7em 0
+}
+
+p.intro {
+    font-family: "chaparral-pro", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    max-width: 23em;
+    line-height: 1.4;
+    color: #003D66
+}
+
+ol {
+    margin-left: 1.5em;
+    list-style: decimal-leading-zero outside
+}
+
+ul {
+    font-weight: 300;
+    margin-left: 1em;
+    list-style: none
+}
+
+ul li::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: -1em;
+    top: 0.7em;
+    background: #F6511D
+}
+
+ol ul {
+    padding-top: 0.35em;
+    margin-left: 0;
+    font-family: "chaparral-pro", serif
+}
+
+ol.heading {
+    color: #F6511D;
+    margin-left: 1.5em;
+    padding-top: 0;
+    margin-top: 0
+}
+
+ol.heading ul {
+    color: #203640;
+    font-family: "chaparral-pro", serif;
+    text-transform: none
+}
+
+blockquote {
+    font-weight: 300;
+    font-size: 1.25em;
+    font-family: "Alegreya Sans", sans-serif;
+    background: #F6511D;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 3.5em
+}
+
+@media (min-width: 48em) {
+    blockquote {
+        font-size: 1.5em;
+        line-height: 1.5
+    }
+}
+
+blockquote p {
+    color: #fff;
+    max-width: 28em
+}
+
+blockquote .openquote,
+blockquote .closequote {
+    font-size: 4em;
+    position: absolute;
+    line-height: 1;
+    color: #FFB400;
+    padding-left: 0.025em
+}
+
+blockquote .openquote {
+    top: -0.1em;
+    left: -0.3em
+}
+
+blockquote .byline {
+    margin: 1em 0 0 0.5em;
+    font-size: .75em;
+    font-weight: 300;
+    margin-left: 0
+}
+
+blockquote .byline span.sans-sc {
+    font-family: "Alegreya Sans SC", sans-serif
+}
+
+@supports (font-feature-settings: "smcp") {
+    blockquote .byline span.sans-sc {
+        text-transform: lowercase
+    }
+}
+
+blockquote .byline a {
+    color: #ffc740;
+    text-decoration: none
+}
+
+blockquote .byline a:hover {
+    color: #fff;
+    border-bottom: 1px dotted #FFB400
+}
+
+.sc {
+    font-variant-caps: small-caps;
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp"
+}
+
+@supports (font-feature-settings: "smcp") {
+    .sc {
+        text-transform: lowercase
+    }
+}
+
+@supports (-webkit-font-feature-settings: "smcp") {
+    .sc {
+        text-transform: lowercase
+    }
+}
+
+@supports (-moz-font-feature-settings: "smcp") {
+    .sc {
+        text-transform: lowercase
+    }
+}
+
+.regular,
+strong {
+    font-weight: 400
+}
+
+header.page h1 {
+    font-size: 1em
+}
+
+header.page h1 a {
+    display: block;
+    padding: 0.85em 0 0 5.5em;
+    text-decoration: none;
+    line-height: 1
+}
+
+header.page h1 a,
+header.page h1 a:link,
+header.page h1 a:visited {
+    color: #003D66
+}
+
+header.page h1 a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 2.5em;
+    width: 5.5em;
+    background: transparent url(../assets/nwalton-logo.svg) top left no-repeat
+}
+
+@media (min-width: 24em) {
+    header.page {
+        margin-left: -2.5%
+    }
+}
+
+header.page span.title {
+    display: none
+}
+
+nav.page {
+    margin: 0 -1em 2em;
+    padding: 1em 0 0
+}
+
+nav.page:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: #003D66;
+    margin: 1em
+}
+
+nav.page a {
+    font-weight: 400;
+    display: inline-block;
+    padding: 1em
+}
+
+footer.page {
+    font-family: "Alegreya Sans", sans-serif;
+    background: #203640;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background: linear-gradient(45deg, #223842 12%, transparent 0, transparent 88%, #223842 0), linear-gradient(135deg, transparent 37%, #1f353f 0, #1f353f 63%, transparent 0), linear-gradient(45deg, transparent 37%, #223842 0, #223842 63%, transparent 0) #203640;
+    background-size: 8px 8px
+}
+
+footer.page p {
+    font-size: 0.8em;
+    color: #ccd8e0
+}
+
+footer.page p.hi {
+    font-weight: 700;
+    color: #FFB400
+}
+
+footer.page a {
+    text-decoration: none;
+    color: #809eb3
+}
+
+footer.page a:hover {
+    border-bottom: 1px dotted #809eb3
+}
+
+footer.page .bio p {
+    margin-left: 7em
+}
+
+footer.page .bio img {
+    display: block;
+    width: 5em;
+    max-width: 100%;
+    border-radius: 2.5em;
+    border: 2px solid #586870;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: -10px 0px 0px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px 0px 0px 0px rgba(0, 0, 0, 0.15)
+}
+
+.image,
+img {
+    max-height: 200vh;
+    transition: max-height 250ms ease
+}
+
+@media (min-height: 30em) {
+
+    .image,
+    img {
+        max-height: 144vh
+    }
+}
+
+@media (min-height: 42em) {
+
+    .image,
+    img {
+        max-height: 99vh
+    }
+}
+
+.image {
+    margin: 2em -7% 2em -8%;
+    transition: padding 250ms ease;
+    max-width: 42em
+}
+
+@media (min-width: 24em) {
+    .image {
+        margin: 2em -7% 2em -8%
+    }
+}
+
+.image.sm {
+    margin: 2em 0
+}
+
+@media (min-width: 32em) {
+    .image.standard {
+        margin: 2.5em 0;
+        padding-right: 1.5em
+    }
+}
+
+.image.full {
+    max-width: 64em
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block
+}
+
+figcaption {
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+    font-style: italic;
+    color: #999
+}
+
+figcaption em {
+    font-style: normal
+}
+
+@media (min-width: 32em) {
+    .standard figcaption {
+        padding: 0.5em 0
+    }
+}
+
+.sm figcaption {
+    padding: 0.5em 0
+}
+
+.projects {
+    margin-top: 3em
+}
+
+a.project-svg {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 4.1em;
+    transition: height 200ms cubic-bezier(0, 0.7, 0.5, 1);
+    transition-delay: 200ms;
+    text-decoration: none;
+    color: #444;
+    text-decoration: none
+}
+
+a.project-svg h1,
+a.project-svg h2,
+a.project-svg p {
+    pointer-events: none
+}
+
+a.project-svg:hover {
+    height: 6em;
+    transition: height 220ms cubic-bezier(0.5, 0, 1, 0.3);
+    transition-delay: 1ms
+}
+
+svg {
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6em
+}
+
+path {
+    vector-effect: non-scaling-stroke
+}
+
+a.project {
+    text-decoration: none;
+    margin-top: -1px
+}
+
+a.project h1,
+a.project h2 {
+    line-height: 1.1;
+    padding: 0.65em 0 0.1em;
+    margin: 0
+}
+
+@media (min-width: 48em) {
+
+    a.project h1,
+    a.project h2 {
+        padding: 0.65em 0 0.4em;
+        display: inline-block
+    }
+}
+
+a.project h1 {
+    font-family: "chaparral-pro", serif;
+    font-size: 1.75em;
+    padding-right: 0.25em;
+    color: #003D66
+}
+
+a.project h2,
+a.project p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300
+}
+
+a.project h2 {
+    font-size: 1.1em;
+    text-transform: none;
+    color: #F6511D
+}
+
+a.project p {
+    font-size: 0.9em;
+    color: #79868c;
+    margin: 0;
+    padding: 0;
+    display: none
+}
+
+@media (min-width: 48em) {
+    a.project p {
+        display: block
+    }
+}
+
+ul.skills {
+    display: none
+}
+
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")"
+    }
+
+    abbr[title]:after {
+        content: " ("attr(title) ")"
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: ""
+    }
+
+    pre {
+        white-space: pre-wrap !important
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    thead {
+        display: table-header-group
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+}

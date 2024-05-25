@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Nate Walton</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.css?v=1.2" />
+</head>
+
+<body class="case-study">
+    <header class="page">
+        <h1><a href="index.html"><span class="name">Nate Walton</span> <span class="title">Design</span></a></h1>
+    </header>
+    <main class="page">
+        <h1>LDS Philanthropies Donations</h1>
+        <p class="intro">Allow quick and easy transactions through the LDS Philanthropies web donation form.</p>
+        <div class="image standard">
+            <figure><img srcset="img/400w/ldsp-donations.png 400w, img/800w/ldsp-donations.png 800w, img/1600w/ldsp-donations.png 1600w, img/3200w/ldsp-donations.png 3200w" sizes="(max-width: 32em) 100vw, 86vw" src="img/800w/ldsp-donations.png" alt="Part of the LDSP donations page" />
+                <figcaption>Part of the LDSP donations page</figcaption>
+            </figure>
+        </div>
+        <section class="top">
+            <h2>Problem</h2>
+            <p>The LDSP online donation system took a long time to load and was prone to errors. It also had some UI items that needed to be updated, like very slow animations. We wanted to make the donation experience as smooth and friendly as possible.</p>
+        </section>
+        <section class="top">
+            <h2>Users <span class="slash">/</span> Constraints</h2>
+            <p>We have a pretty big demographic range of users for the site, but the users we decided to focus on were women, ages 45 and older&mdash;which make up a large proportion of our donors. Some of them don't spend much time on computers and can be intimidated by complicated interfaces. They also tend to user older technology as a whole than, say, an average internet user.</p>
+        </section>
+        <section class="top">
+            <h2>Team <span class="slash">/</span> Roles</h2>
+            <p>There were three people on the internal web team: one UX/UI designer (me), one web content specialist, and one product manager. We also worked closely with an off-site development team. </p>
+            <h3>My responsibilities</h3>
+            <ul>
+                <li>Contribute to initial needs analysis</li>
+                <li>Analyze performance</li>
+                <li>Analyze technical needs</li>
+                <li>Research best prectices in design and development for web forms</li>
+                <li>Design standard elements </li>
+                <li>Design interface</li>
+                <li>Write interface labels, text, and errors</li>
+                <li>Develop production-ready front-end code (HTML/CSS/JS)</li>
+                <li>Test interface prototypes</li>
+                <li>Assist back-end team implementing new system in Adobe Experience Manager</li>
+            </ul>
+        </section>
+        <section class="top">
+            <h2>Guiding Principles</h2>
+            <p>Based on the frequent use of older technology and the nature of many of the errors we saw with the previous form, I determined that the page should be as &ldquo;bulletproof&rdquo; as possible. That meant, in true progressive enhancement fashion, that it should use only standard form elements, and function even without javascript (it's just a form, after all). I decided to make liberal use of progressive disclosure (when javascript <em>was</em> enabled) to keep the form from becoming overwhelming. It also needed lots of inline error-checking to catch as many mistakes as possible in a friendly, intuitive way before sending the form back to the server. Finally, I decided to employ a lot of subtle UI animations to help users more easily keep track of what was happening on screen.</p>
+        </section>
+        <section class="top">
+            <h2>Process</h2>
+            <section class="sub">
+                <h3>Research</h3>
+                <p>We started with a list of issues that had come from support calls over time. I focused more of my initial attention on learning about the latest research into form design. I took online courses, read extensively, and experimented.</p>
+                <h3>Design</h3>
+                <p>I built a few static mockups to work with visual identity and form components, but quickly moved to HTML prototyping so I could design the full experience, including animation.</p>
+                <h3>Test</h3>
+                <p>I worked with our product manager to design user test with a few short tasks that would help us evaluate the design. I made adjustments based on our observations and feedback.</p>
+            </section>
+        </section>
+        <section class="top">
+            <h2>A few of my favorite things</h2>
+            <section class="sub">
+                <h3>Sweet animations</h3>
+                <p>I wanted to really fine-tune the interface animations, and make sure they were very consistent across the whole page. CSS animations offer more control over easing than javascript, but I needed to use both in some places. I wrote my own javascript animation engine, which weighs under 5K and mirrors the <code>cubic-bezier</code> easing control in CSS. It took quite awhile to work out the math, but I think the polish of the result was well worth the effort. I also made sure all movement and state changes on screen implemented the animation engine, so the interface has a very smooth, finished feel to it.</p>
+            </section>
+            <section class="sub">
+                <h3>Super-easy radio buttons</h3>
+                <p>One of the problems we've observed is that some people have difficulty selecting controls with very small targets, such as standard radio buttons or checkboxes. It helps to make the labels selectable, but not everyone takes advantage of that. I opted to enlarge the radio button labels and make them into the only targets, creating a set of toggle buttons.</p>
+            </section>
+            <section class="sub">
+                <h3>A robust error system</h3>
+                <p>I wrote an extensive javascript error module along with descriptive error messages to help people feel supported and to help them correct mistakes quickly. It covers lots of different scenarios, and even recognizes the peculiarities of things like international postal addresses.</p>
+                <div class="image sm">
+                    <figure><img srcset="img/400w/ldsp-donate-error.gif 400w, img/800w/ldsp-donate-error.gif 800w, img/1600w/ldsp-donate-error.gif 1600w" sizes="(max-width: 32em) 100vw, 86vw" src="img/800w/ldsp-donate-error.gif" alt="An error on the LDSP donation form" />
+                        <figcaption>An error on the LDSP donation form</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="sub">
+                <h3>Quick and easy search</h3>
+                <p>The previous system had used a fairly slow server call to search through the hundreds of funds available for donation. I moved it to a front-end function, with a JSON list for data (loaded asynchronously, of course). This provides an instantaneous, search-as-you-type interface. I also added some filtering options to help narrow things down.</p>
+                <div class="image full">
+                    <figure><img srcset="img/400w/ldsp-donate-search.png 400w, img/800w/ldsp-donate-search.png 800w, img/1600w/ldsp-donate-search.png 1600w, img/3200w/ldsp-donate-search.png 3200w" sizes="(max-width: 72em) 100vw, 90vw" src="img/800w/ldsp-donate-search.png" alt="Fund search interface" />
+                        <figcaption>Fund search interface</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section class="top">
+            <h2>Success measures</h2>
+            <p>A successful solution would:</p>
+            <ul>
+                <li>Reduce errors from the interface that prevented people from donating,</li>
+                <li>and speed up the page,</li>
+                <li>both of which should reduce the service calls</li>
+                <li>and ultimately result in a higher number of successful donations.</li>
+            </ul>
+            <p>The page size went from over two megabytes down to under 200K. The number of network requests and the page load speed decreased dramatically. When we launched the new donation page we expected a few service calls just because of the new interface, but we didn&rsquo;t even get that. We've continued to have very few, if any calls related to the interface since launch. Donations were up by 40% between 2016 (when we launched) and 2017.</p>
+        </section>
+    </main>
+    <footer class="page">
+        <div class="bio"><img src="img/blue-sm_400x400.jpg" />
+            <p class="hi">Hi, I&rsquo;m Nate.</p>
+            <p>I make interfaces that work for people. I spend most of my time in design and user testing, but I&rsquo;ve also been known to code when it helps me improve people&rsquo;s experience (I love functional prototypes).</p>
+            <p>You can contact me through <a href="https://web.archive.org/web/20180817082222/https://twitter.com/natewalton">Twitter</a> or <a href="https://web.archive.org/web/20180817082222/https://www.linkedin.com/in/nwalton/">LinkedIn</a>.</p>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script><!-- Global site tag (gtag.js) - Google Analytics-->
+<script async="async" src="https://web.archive.org/web/20180817082222js_/https://www.googletagmanager.com/gtag/js?id=UA-113886997-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'UA-113886997-1');
+</script>
+
+</html>
