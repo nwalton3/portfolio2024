@@ -2,87 +2,7 @@
 @import url("https://use.typekit.net/wlw1swx.css");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Alegreya+Sans:wght@300;500&display=swap');
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -91,17 +11,7 @@ video {
     vertical-align: baseline
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block
 }
 
@@ -109,20 +19,15 @@ body {
     line-height: 1
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none
 }
 
-blockquote,
-q {
+blockquote, q {
     quotes: none
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none
 }
@@ -152,12 +57,7 @@ hr {
     padding: 0
 }
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle
 }
 
@@ -188,8 +88,7 @@ textarea {
     white-space: nowrap
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     clip-path: none;
     height: auto;
@@ -204,8 +103,7 @@ textarea {
     visibility: hidden
 }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table
 }
@@ -214,15 +112,12 @@ textarea {
     clear: both
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     position: relative;
     box-sizing: border-box
 }
 
-html,
-body {
+html, body {
     font-size: 100%
 }
 
@@ -263,20 +158,14 @@ body {
     }
 }
 
-body,
-.full-width,
-blockquote,
-footer.page {
+body, .full-width, blockquote, footer.page {
     padding-right: 6%;
     padding-left: 7%
 }
 
 @media (min-width: 24em) {
 
-    body,
-    .full-width,
-    blockquote,
-    footer.page {
+    body,     .full-width,     blockquote,     footer.page {
         padding-right: 8%;
         padding-left: 9%
     }
@@ -284,10 +173,7 @@ footer.page {
 
 @media (min-width: 32em) {
 
-    body,
-    .full-width,
-    blockquote,
-    footer.page {
+    body,     .full-width,     blockquote,     footer.page {
         padding-right: 10%;
         padding-left: 11%
     }
@@ -295,10 +181,7 @@ footer.page {
 
 @media (min-width: 48em) {
 
-    body,
-    .full-width,
-    blockquote,
-    footer.page {
+    body,     .full-width,     blockquote,     footer.page {
         padding-right: 12%;
         padding-left: 13%
     }
@@ -306,27 +189,20 @@ footer.page {
 
 @media (min-width: 72em) {
 
-    body,
-    .full-width,
-    blockquote,
-    footer.page {
+    body,     .full-width,     blockquote,     footer.page {
         padding-right: 14%;
         padding-left: 15%
     }
 }
 
-.full-width,
-blockquote,
-footer.page {
+.full-width, blockquote, footer.page {
     margin-right: -6.89655%;
     margin-left: -8.04598%
 }
 
 @media (min-width: 24em) {
 
-    .full-width,
-    blockquote,
-    footer.page {
+    .full-width,     blockquote,     footer.page {
         margin-right: -9.63855%;
         margin-left: -10.84337%
     }
@@ -334,9 +210,7 @@ footer.page {
 
 @media (min-width: 32em) {
 
-    .full-width,
-    blockquote,
-    footer.page {
+    .full-width,     blockquote,     footer.page {
         margin-right: -12.65823%;
         margin-left: -13.92405%
     }
@@ -344,9 +218,7 @@ footer.page {
 
 @media (min-width: 48em) {
 
-    .full-width,
-    blockquote,
-    footer.page {
+    .full-width,     blockquote,     footer.page {
         margin-right: -16%;
         margin-left: -17.33333%
     }
@@ -354,23 +226,17 @@ footer.page {
 
 @media (min-width: 72em) {
 
-    .full-width,
-    blockquote,
-    footer.page {
+    .full-width,     blockquote,     footer.page {
         margin-right: -19.71831%;
         margin-left: -21.12676%
     }
 }
 
-h1,
-h2 {
+h1, h2 {
     color: #003D66
 }
 
-h1,
-h2,
-h3,
-.heading {
+h1, h2, h3, .heading {
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 500;
     text-transform: lowercase
@@ -451,19 +317,15 @@ a {
     transition: color 200ms ease
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
     color: #1B75BB
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     color: #003D66
 }
 
-p,
-ol,
-ul {
+p, ol, ul {
     max-width: 36em;
     color: #222
 }
@@ -545,8 +407,7 @@ blockquote p {
     max-width: 28em
 }
 
-blockquote .openquote,
-blockquote .closequote {
+blockquote .openquote, blockquote .closequote {
     font-size: 4em;
     position: absolute;
     line-height: 1;
@@ -611,8 +472,7 @@ blockquote .byline a:hover {
     }
 }
 
-.regular,
-strong {
+.regular, strong {
     font-weight: 400
 }
 
@@ -627,9 +487,7 @@ header.page h1 a {
     line-height: 1
 }
 
-header.page h1 a,
-header.page h1 a:link,
-header.page h1 a:visited {
+header.page h1 a, header.page h1 a:link, header.page h1 a:visited {
     color: #003D66
 }
 
@@ -721,24 +579,21 @@ footer.page .bio img {
     box-shadow: -10px 0px 0px 0px rgba(0, 0, 0, 0.15)
 }
 
-.image,
-img {
+.image, img {
     max-height: 200vh;
     transition: max-height 250ms ease
 }
 
 @media (min-height: 30em) {
 
-    .image,
-    img {
+    .image,     img {
         max-height: 144vh
     }
 }
 
 @media (min-height: 42em) {
 
-    .image,
-    img {
+    .image,     img {
         max-height: 99vh
     }
 }
@@ -814,9 +669,7 @@ a.project-svg {
     text-decoration: none
 }
 
-a.project-svg h1,
-a.project-svg h2,
-a.project-svg p {
+a.project-svg h1, a.project-svg h2, a.project-svg p {
     pointer-events: none
 }
 
@@ -845,8 +698,7 @@ a.project {
     margin-top: -1px
 }
 
-a.project h1,
-a.project h2 {
+a.project h1, a.project h2 {
     line-height: 1.1;
     padding: 0.65em 0 0.1em;
     margin: 0
@@ -854,8 +706,7 @@ a.project h2 {
 
 @media (min-width: 48em) {
 
-    a.project h1,
-    a.project h2 {
+    a.project h1,     a.project h2 {
         padding: 0.65em 0 0.4em;
         display: inline-block
     }
@@ -868,8 +719,7 @@ a.project h1 {
     color: #003D66
 }
 
-a.project h2,
-a.project p {
+a.project h2, a.project p {
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 300
 }
@@ -900,17 +750,14 @@ ul.skills {
 
 @media print {
 
-    *,
-    *:before,
-    *:after {
+    *,     *:before,     *:after {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important
     }
 
-    a,
-    a:visited {
+    a,     a:visited {
         text-decoration: underline
     }
 
@@ -922,8 +769,7 @@ ul.skills {
         content: " ("attr(title) ")"
     }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after,     a[href^="javascript:"]:after {
         content: ""
     }
 
@@ -931,8 +777,7 @@ ul.skills {
         white-space: pre-wrap !important
     }
 
-    pre,
-    blockquote {
+    pre,     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid
     }
@@ -941,20 +786,16 @@ ul.skills {
         display: table-header-group
     }
 
-    tr,
-    img {
+    tr,     img {
         page-break-inside: avoid
     }
 
-    p,
-    h2,
-    h3 {
+    p,     h2,     h3 {
         orphans: 3;
         widows: 3
     }
 
-    h2,
-    h3 {
+    h2,     h3 {
         page-break-after: avoid
     }
 }
