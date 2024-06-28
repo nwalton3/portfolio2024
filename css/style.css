@@ -262,7 +262,8 @@ h3 {
 }
 
 main.page {
-    padding-bottom: 5em
+    padding-bottom: 5em;
+    margin-top: 2em;
 }
 
 main.page h1 {
