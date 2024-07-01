@@ -165,7 +165,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 24em) {
 
-    body,     .full-width,     blockquote,     footer.page {
+    body, .full-width, blockquote, footer.page {
         padding-right: 8%;
         padding-left: 9%
     }
@@ -173,7 +173,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 32em) {
 
-    body,     .full-width,     blockquote,     footer.page {
+    body, .full-width, blockquote, footer.page {
         padding-right: 10%;
         padding-left: 11%
     }
@@ -181,7 +181,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 48em) {
 
-    body,     .full-width,     blockquote,     footer.page {
+    body, .full-width, blockquote, footer.page {
         padding-right: 12%;
         padding-left: 13%
     }
@@ -189,7 +189,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 72em) {
 
-    body,     .full-width,     blockquote,     footer.page {
+    body, .full-width, blockquote, footer.page {
         padding-right: 14%;
         padding-left: 15%
     }
@@ -202,7 +202,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 24em) {
 
-    .full-width,     blockquote,     footer.page {
+    .full-width, blockquote, footer.page {
         margin-right: -9.63855%;
         margin-left: -10.84337%
     }
@@ -210,7 +210,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 32em) {
 
-    .full-width,     blockquote,     footer.page {
+    .full-width, blockquote, footer.page {
         margin-right: -12.65823%;
         margin-left: -13.92405%
     }
@@ -218,7 +218,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 48em) {
 
-    .full-width,     blockquote,     footer.page {
+    .full-width, blockquote, footer.page {
         margin-right: -16%;
         margin-left: -17.33333%
     }
@@ -226,7 +226,7 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 72em) {
 
-    .full-width,     blockquote,     footer.page {
+    .full-width, blockquote, footer.page {
         margin-right: -19.71831%;
         margin-left: -21.12676%
     }
