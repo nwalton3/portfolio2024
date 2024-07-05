@@ -1,3 +1,20 @@
+/*
+--------------------
+Colors
+--------------------
+Middle Blue: #1C75BC
+Dark Blue:   #003D66
+Dark Orange: #F6511D
+Dark Yellow: #FFB400
+
+Footer BG:   #203640
+Footer BG L: #223842
+Footer BG D: #1f353f
+Footer Text: #ccd8e0
+Footer Link: #809eb3
+--------------------
+*/
+
 
 @import url("https://use.typekit.net/wlw1swx.css");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;500&family=Alegreya+Sans:wght@300;500&display=swap');
@@ -165,33 +182,71 @@ body, .full-width, blockquote, footer.page {
 
 @media (min-width: 24em) {
 
-    body, .full-width, blockquote, footer.page {
+    body {
         padding-right: 8%;
         padding-left: 9%
+    }
+
+    .full-width, blockquote, footer.page {
+        padding-right: 9.63855%;
+        padding-left: 10.84337%
+    }
+
+    main .bio.full-width {
+        padding-right: 5%;
+        border-radius: 0 0 0.6em 0;
     }
 }
 
 @media (min-width: 32em) {
 
-    body, .full-width, blockquote, footer.page {
+    body {
         padding-right: 10%;
         padding-left: 11%
+    }
+
+    .full-width, blockquote, footer.page {
+        padding-right: 12.65823%;
+        padding-left: 13.92405%
+    }
+
+    main .bio.full-width {
+        padding-right: 7%;
     }
 }
 
 @media (min-width: 48em) {
 
-    body, .full-width, blockquote, footer.page {
+    body {
         padding-right: 12%;
         padding-left: 13%
     }
+
+    .full-width, blockquote, footer.page {
+        padding-right: 16%;
+        padding-left: 17.33333%
+    }
+
+    main .bio.full-width {
+        padding-right: 9%;
+    }
+
 }
 
 @media (min-width: 72em) {
 
-    body, .full-width, blockquote, footer.page {
+    body {
         padding-right: 14%;
         padding-left: 15%
+    }
+
+    .full-width, blockquote, footer.page {
+        padding-right: 19.71831%;
+        padding-left: 21.12676%
+    }
+
+    main .bio.full-width {
+        padding-right: 12%;
     }
 }
 
@@ -206,6 +261,10 @@ body, .full-width, blockquote, footer.page {
         margin-right: -9.63855%;
         margin-left: -10.84337%
     }
+
+    main .bio.full-width {
+        margin-right: -5%;
+    }
 }
 
 @media (min-width: 32em) {
@@ -213,6 +272,10 @@ body, .full-width, blockquote, footer.page {
     .full-width, blockquote, footer.page {
         margin-right: -12.65823%;
         margin-left: -13.92405%
+    }
+
+    main .bio.full-width {
+        margin-right: -6.5%;
     }
 }
 
@@ -222,6 +285,10 @@ body, .full-width, blockquote, footer.page {
         margin-right: -16%;
         margin-left: -17.33333%
     }
+
+    main .bio.full-width {
+        margin-right: -8%;
+    }
 }
 
 @media (min-width: 72em) {
@@ -229,6 +296,10 @@ body, .full-width, blockquote, footer.page {
     .full-width, blockquote, footer.page {
         margin-right: -19.71831%;
         margin-left: -21.12676%
+    }
+
+    main .bio.full-width {
+        margin-right: -10%;
     }
 }
 
@@ -624,6 +695,21 @@ footer.page .bio img {
 
 .image.full {
     max-width: 64em
+}
+
+main .bio {
+    background: #F6511D;
+    border-top: 0.75em solid #FFB400;
+    font-style: italic;
+    color: #fff;
+    padding-top: 1.2em;
+    padding-bottom: 1.75em;
+    font-size: 1.4em;
+    line-height: 1.3;
+}
+
+.section {
+    color: #1C75BC;
 }
 
 img {
