@@ -3,6 +3,9 @@
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 500;
 }
+.info, .narration {
+    padding: 0 5%;
+}
 .info h3 {
     font-size: 1.3em;
 }
@@ -28,10 +31,86 @@
 }
 .thesis-wrapper {
     position: relative;
-    background-color: #eee;
+/*    background-color: #eee;*/
 }
 .thesis-wrapper.full-width {
     padding: 0;
+}
+.thesis-wrapper img, .thesis-wrapper .image {
+    max-height: unset;
+}
+
+.tns-nav {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    z-index: 101;
+}
+
+.tns-outer [aria-controls], .tns-outer [data-action] {
+    cursor: pointer;
+}
+.tns-nav button {
+    height: 2px;
+    flex-grow: 1;
+    width: unset;
+    border: none;
+    padding: 12px 0;
+    outline: none;
+    margin: 0 2px;
+    background: transparent;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+.tns-nav button:before {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+    top: -1px;
+    transition: background-color 250ms ease;
+}
+.tns-nav button.tns-nav-active:before {
+    background: #1B75BB;
+}
+.tns-nav button:hover:before {
+    background: #1B75BB;
+}
+
+.tns-controls {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100vw;
+    height: 0;
+    z-index: 100;
+    padding-bottom: 77%;
+}
+.tns-controls button {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 20%;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 200ms ease;
+    text-indent: -300vw;
+}
+
+.tns-controls button:hover {
+    opacity: 0.5;
+}
+.tns-controls button:first-child {
+    left: 0;
+    background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 25%,  rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,1) 100%);
+}
+.tns-controls button:last-child {
+    right: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 25%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,1) 100%);
 }
 
 @media (min-width: 24em) {
@@ -44,49 +123,38 @@
     .thesis-wrapper.full-width {
         padding: 0 10%;
     }
-}
-@media (min-width: 72em) {
-    .thesis-wrapper.full-width {
-        padding: 0 15%;
+    .info, .narration {
+        padding: 0;
     }
-}
-
-.tns-controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-}
-.tns-controls button {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 150px;
-    border: 0;
-    outline: 0;
-    background: #fff;
-    opacity: 0;
-    transition: opacity 200ms ease;
-}
-.tns-controls button:hover {
-    opacity: 0.5;
-}
-.tns-controls button:first-child {
-    left: 0;
-    background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-}
-.tns-controls button:last-child {
-    right: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-}
-
-@media (min-width: 48em) {
     .tns-controls button:first-child {
-        left: -10%;
+        left: 0;
     }
     .tns-controls button:last-child {
-        right: -10%;
+        right: 0;
+    }
+    .tns-controls {
+        left: -8.8%;
+    }
+}
+@media (min-width: 80em) {
+
+    .slide-wrapper {
+        display: grid;
+        grid-template-columns: 70% auto;
+        grid-column-gap: 2%;
+    }
+    .slide-wrapper figure {
+        margin-left:1px;
+    }
+    .tns-controls {
+        left: -8.25%;
+        padding-bottom: 53.9%;
+    }
+}
+@media (min-width: 114em) {
+    .slide-wrapper {
+        display: grid;
+        grid-template-columns: 1100px auto;
+        grid-column-gap: 2%;
     }
 }
